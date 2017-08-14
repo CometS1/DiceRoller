@@ -25,9 +25,11 @@ body {
     font-size: 60px;
     color: black; }
 
-.container #demo {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif; }
+.container {
+  padding: 10px; }
+  .container #demo {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; }
 
 .rollTable {
   border-style: solid;
