@@ -1,0 +1,18 @@
+body {
+  background: red;
+  background: -webkit-linear-gradient(left, red, blue, yellow);
+  background: -o-linear-gradient(right, red, blue, yellow);
+  background: -moz-linear-gradient(right, red, blue, yellow);
+  background: linear-gradient(to right, red, blue, yellow);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.container {
+  background: skyblue; }
+
+/*# sourceMappingURL=DiceRoller.css.map */

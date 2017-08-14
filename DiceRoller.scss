@@ -1,0 +1,21 @@
+$color-transition: red, blue, yellow;
+
+body{
+  background: red;
+  background: -webkit-linear-gradient(left, $color-transition);
+  background: -o-linear-gradient(right, $color-transition);
+  background: -moz-linear-gradient(right, $color-transition);
+  background: linear-gradient(to right,$color-transition);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.container{
+    background: skyblue;
+}
