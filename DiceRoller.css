@@ -1,9 +1,9 @@
 body {
   background: red;
-  background: -webkit-linear-gradient(left, red, blue, yellow);
-  background: -o-linear-gradient(right, red, blue, yellow);
-  background: -moz-linear-gradient(right, red, blue, yellow);
-  background: linear-gradient(to right, red, blue, yellow);
+  background: -webkit-linear-gradient(left, #ff4d4d, #4d79ff, #ffff4d);
+  background: -o-linear-gradient(right, #ff4d4d, #4d79ff, #ffff4d);
+  background: -moz-linear-gradient(right, #ff4d4d, #4d79ff, #ffff4d);
+  background: linear-gradient(to right, #ff4d4d, #4d79ff, #ffff4d);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -12,7 +12,21 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
-.container {
-  background: skyblue; }
+.desc {
+  background: skyblue;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px; }
+
+.container-fluid {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center; }
+  .container-fluid h1 {
+    font-size: 60px;
+    color: black; }
+
+.container #demo {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif; }
 
 /*# sourceMappingURL=DiceRoller.css.map */

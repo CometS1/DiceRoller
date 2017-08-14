@@ -1,4 +1,4 @@
-$color-transition: red, blue, yellow;
+$color-transition: #ff4d4d, #4d79ff, #ffff4d;
 
 body{
   background: red;
@@ -16,6 +16,23 @@ body{
   
 }
 
-.container{
+.desc{
     background: skyblue;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.container-fluid{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+  h1{
+    font-size:60px;
+    color:black;
+  }
+}
+
+.container #demo{
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
 }
