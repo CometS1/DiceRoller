@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="DiceRoller.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Click for Description</button>
+  <div id="demo" class="collapse">
+    <strong>This is a simple dice rolling web page I created as a test. Feel free to use it for any gaming purposes 
+      you may have.</strong>
+  </div>
+</div>
+
+<div class="container well">       
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Number of Die Faces</th>
+        <th>Amount of Dice</th>
+        <th>+ -</th>
+		<th>Modifier</th>
+		<th>Roll</th>
+		<th>Results</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="roller">
+        <td class='die'>4</td>
+		<td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck1" checked><input type="radio" name="modCheck1"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll" >Roll</button></td>
+		<td ><input type='text' class='sum' readonly></td>
+      </tr>
+      <tr class="roller">
+        <td class='die'>6</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck2" checked><input type="radio" name="modCheck2"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr>
+  <tr class="roller">
+        <td class='die'>8</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck3" checked><input type="radio" name="modCheck3"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr><tr class="roller">
+        <td class='die'>10</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck4" checked><input type="radio" name="modCheck4"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr><tr class="roller">
+        <td class='die'>12</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck5" checked><input type="radio" name="modCheck5"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr><tr class="roller">
+        <td class='die'>20</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck6" checked><input type="radio" name="modCheck6"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr><tr class="roller">
+        <td class='die'>100</td>
+        <td ><input type='number' class='amount' value='1'></td>
+        <td><input type="radio" class="plus" name="modCheck7" checked><input type="radio" name="modCheck7"></td>
+		<td><input type='number' class='modifier' value='0'></td>
+		<td><button type='button' class="roll">Roll</button></td>
+		<td><input type='text' class='sum' readonly></td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+</body>
+<script type='text/javascript' src='DiceRoller.js'></script>
+</html>
